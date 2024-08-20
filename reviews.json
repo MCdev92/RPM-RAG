@@ -1,0 +1,125 @@
+{
+    "reviews": [
+      {
+        "professor": "Dr. James Smith",
+        "subject": "Computer Science",
+        "stars": 5,
+        "review": "Amazing professor! Clear lectures and always willing to help."
+      },
+      {
+        "professor": "Prof. Emily Johnson",
+        "subject": "Mathematics",
+        "stars": 3,
+        "review": "Good teacher but the exams are difficult."
+      },
+      {
+        "professor": "Dr. Michael Lee",
+        "subject": "Physics",
+        "stars": 4,
+        "review": "Engaging lectures and practical examples."
+      },
+      {
+        "professor": "Prof. Sarah Williams",
+        "subject": "Chemistry",
+        "stars": 2,
+        "review": "Hard to follow during lectures, but she offers a lot of resources."
+      },
+      {
+        "professor": "Dr. David Brown",
+        "subject": "History",
+        "stars": 5,
+        "review": "Makes history come alive! Highly recommended."
+      },
+      {
+        "professor": "Prof. Jessica Martinez",
+        "subject": "Literature",
+        "stars": 3,
+        "review": "Interesting readings but unclear grading criteria."
+      },
+      {
+        "professor": "Dr. Richard Davis",
+        "subject": "Biology",
+        "stars": 4,
+        "review": "Challenging course but he’s very supportive."
+      },
+      {
+        "professor": "Prof. Anna Garcia",
+        "subject": "Economics",
+        "stars": 2,
+        "review": "Tough grader and fast-paced."
+      },
+      {
+        "professor": "Dr. William Anderson",
+        "subject": "Philosophy",
+        "stars": 5,
+        "review": "Thought-provoking lectures with plenty of discussion."
+      },
+      {
+        "professor": "Prof. Sophia Robinson",
+        "subject": "Sociology",
+        "stars": 4,
+        "review": "Very knowledgeable but sometimes hard to approach."
+      },
+      {
+        "professor": "Dr. Andrew Wilson",
+        "subject": "Political Science",
+        "stars": 3,
+        "review": "Lectures can be dry but his office hours are great."
+      },
+      {
+        "professor": "Prof. Jennifer Lewis",
+        "subject": "Psychology",
+        "stars": 5,
+        "review": "Very empathetic and creates a great learning environment."
+      },
+      {
+        "professor": "Dr. Charles Walker",
+        "subject": "Statistics",
+        "stars": 4,
+        "review": "Clear explanations, but the problem sets are tough."
+      },
+      {
+        "professor": "Prof. Lisa Hall",
+        "subject": "Art History",
+        "stars": 2,
+        "review": "Content is interesting, but she is very strict about attendance."
+      },
+      {
+        "professor": "Dr. Steven Young",
+        "subject": "Engineering",
+        "stars": 5,
+        "review": "Top-notch! Industry insights and practical skills."
+      },
+      {
+        "professor": "Prof. Laura Allen",
+        "subject": "Anthropology",
+        "stars": 3,
+        "review": "Interesting material but lectures are sometimes hard to follow."
+      },
+      {
+        "professor": "Dr. Robert King",
+        "subject": "Environmental Science",
+        "stars": 4,
+        "review": "Engaging and very knowledgeable about current issues."
+      },
+      {
+        "professor": "Prof. Olivia Scott",
+        "subject": "Music Theory",
+        "stars": 5,
+        "review": "Passionate about music and always encourages creativity."
+      },
+      {
+        "professor": "Dr. Patricia Green",
+        "subject": "Linguistics",
+        "stars": 3,
+        "review": "Content is heavy but she provides plenty of study materials."
+      },
+      {
+        "professor": "Prof. Joseph Hill",
+        "subject": "Theater Arts",
+        "stars": 4,
+        "review": "Fun classes with lots of group activities."
+      }
+    ]
+  }
+  
