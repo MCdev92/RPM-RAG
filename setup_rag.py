@@ -26,7 +26,7 @@ processed_data = []
 
 # Create embeddings for each review
 for review in data["reviews"]:
-    response = openai.Embedding.create(
+    response = openai.embeddings.create(
         input=review['review'], model="text-embedding-ada-002"
     )
     embedding = response['data'][0]['embedding']

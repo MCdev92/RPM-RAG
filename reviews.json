@@ -1,27 +1,27 @@
 {
     "reviews": [
       {
-        "professor": "Dr. James Smith",
+        "professor": "Dr. Finny Kuruvilla",
         "subject": "Computer Science",
         "stars": 5,
-        "review": "Amazing professor! Clear lectures and always willing to help."
+        "review": "Amazing professor! Hard quizes for sure. Teaches FTC, Christian Doctrines, and Immunology."
       },
       {
-        "professor": "Prof. Emily Johnson",
+        "professor": "Dr. Benjamin Harris",
         "subject": "Mathematics",
-        "stars": 3,
+        "stars": 5,
         "review": "Good teacher but the exams are difficult."
       },
       {
-        "professor": "Dr. Michael Lee",
+        "professor": "Dr. Beth Benett",
         "subject": "Physics",
         "stars": 4,
         "review": "Engaging lectures and practical examples."
       },
       {
-        "professor": "Prof. Sarah Williams",
+        "professor": "Dr. Derrick Tate",
         "subject": "Chemistry",
-        "stars": 2,
+        "stars": 3,
         "review": "Hard to follow during lectures, but she offers a lot of resources."
       },
       {
@@ -49,9 +49,9 @@
         "review": "Tough grader and fast-paced."
       },
       {
-        "professor": "Dr. William Anderson",
+        "professor": "Dr. Derrick Tate",
         "subject": "Philosophy",
-        "stars": 5,
+        "stars": 4,
         "review": "Thought-provoking lectures with plenty of discussion."
       },
       {
@@ -122,4 +122,5 @@
       }
     ]
   }
+
   
