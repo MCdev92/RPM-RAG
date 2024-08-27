@@ -8,21 +8,21 @@
       },
       {
         "professor": "Dr. Benjamin Harris",
-        "subject": "Mathematics",
+        "subject": "Mathematics and Business",
         "stars": 5,
-        "review": "Good teacher but the exams are difficult."
+        "review": "One of the most amazing statistices professor."
       },
       {
         "professor": "Dr. Beth Benett",
-        "subject": "Physics",
+        "subject": "Physics and Biology",
         "stars": 4,
         "review": "Engaging lectures and practical examples."
       },
       {
         "professor": "Dr. Derrick Tate",
-        "subject": "Chemistry",
+        "subject": "Computer Scienced and Mathemeatics. ",
         "stars": 3,
-        "review": "Hard to follow during lectures, but she offers a lot of resources."
+        "review": "Hard to follow during lectures, but he offers a lot of resources."
       },
       {
         "professor": "Dr. David Brown",

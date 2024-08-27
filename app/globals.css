@@ -105,3 +105,43 @@ a {
 }
 
 /* Add more CSS below based on your needs */
+/* Ensuring the body takes full width and height */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #6c98de 100%);
+  color: rgb(var(--foreground-rgb));
+  overflow-x: hidden;
+}
+
+/* Customize link styles */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Handle dark mode preferences */
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+/* Remove scrollbar in non-essential areas */
+body::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+/* Customize MUI's primary and secondary colors */
+:root {
+  --primary-main: #1976d2;
+  --secondary-main: #ff4081;
+}
+
+/* Add more CSS below based on your needs */

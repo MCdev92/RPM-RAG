@@ -82,7 +82,7 @@ export default function SignIn() {
               letterSpacing: '1.5px',
             }}
           >
-            Welcome to Rate My Professor AI
+            Welcome to ProfRanker AI
           </Typography>
           <Typography
             variant="h6"
