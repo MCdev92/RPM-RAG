@@ -1,11 +1,10 @@
-
 'use client';
 import { AppBar, Toolbar, Typography, Button, Box, Container, Grid } from '@mui/material';
 import Link from 'next/link';
 import { SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
 import Image from 'next/image';
 
-export default function SignIn() {
+export default function LandingPage() {
   return (
     <Box>
       {/* Hero Section */}
@@ -24,7 +23,17 @@ export default function SignIn() {
         <AppBar position="static" sx={{ background: 'transparent', boxShadow: 'none' }}>
           <Toolbar sx={{ justifyContent: 'space-between' }}>
             <Typography variant="h6" component="div" sx={{ flexGrow: 1, textAlign: 'left' }}>
-              ProfRanker AI
+              <span
+                style={{
+                  background: 'linear-gradient(90deg, #a0e9ff, #69c0ff, #ff6ec7, #ff92df)',
+                  WebkitBackgroundClip: 'text',
+                  WebkitTextFillColor: 'transparent',
+                  animation: 'shiny-text 3s ease-in-out infinite',
+                  backgroundSize: '200% auto',
+                }}
+              >
+                ProfRanker AI
+              </span>
             </Typography>
             <Box>
               <SignedOut>
@@ -65,8 +74,8 @@ export default function SignIn() {
             }}
           >
             <Image
-              src="/assets/images/rpm-ai.png" // Corrected path
-              alt="RMP AI Logo"
+              src="/assets/images/rpm-ai.png" // Your logo image
+              alt="ProfRanker AI Logo"
               layout="responsive"
               width={250}
               height={250}
@@ -80,6 +89,11 @@ export default function SignIn() {
               mb: 2,
               fontFamily: "'Poppins', sans-serif",
               letterSpacing: '1.5px',
+              background: 'linear-gradient(90deg, #ff4081, #00bcd4)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              animation: 'shiny-text 3s ease-in-out infinite',
+              backgroundSize: '200% auto',
             }}
           >
             Welcome to ProfRanker AI
@@ -102,103 +116,113 @@ export default function SignIn() {
         </Container>
       </Box>
 
-<Container sx={{ py: 8 }}>
-  <Typography variant="h4" align="center" sx={{ fontWeight: 'bold', mb: 6 }}>
-    Why Choose Us?
-  </Typography>
-  <Grid container spacing={6}>
-    <Grid item xs={12} md={4}>
-      <Box
-        sx={{
-          textAlign: 'center',
-          px: 4,
-          py: 3,
-          borderRadius: 3,
-          boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)',
-          transition: 'transform 0.3s',
-          '&:hover': {
-            transform: 'translateY(-10px)',
-          },
-        }}
-      >
-        <Image
-          src="/assets/images/another image.jpeg"
-          alt="Accurate Ratings"
-          width={250}
-          height={150}
-          style={{ borderRadius: '8px' }}
-        />
-        <Typography variant="h6" sx={{ mt: 3, fontWeight: 'bold', fontSize: '1.2rem' }}>
-          Accurate Ratings
+      {/* Features Section */}
+      <Container sx={{ py: 8 }}>
+        <Typography variant="h4" align="center" sx={{ fontWeight: 'bold', mb: 6 }}>
+          Why Choose Us?
         </Typography>
-        <Typography sx={{ mt: 2, color: 'white' }}>
-          We use advanced AI algorithms to provide the most accurate and unbiased ratings for professors.
-        </Typography>
-      </Box>
-    </Grid>
-    <Grid item xs={12} md={4}>
-      <Box
-        sx={{
-          textAlign: 'center',
-          px: 4,
-          py: 3,
-          borderRadius: 3,
-          boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)',
-          transition: 'transform 0.3s',
-          '&:hover': {
-            transform: 'translateY(-10px)',
-          },
-        }}
-      >
-        <Image
-          src="/assets/images/accurate.jpeg"
-          alt="Comprehensive Reviews"
-          width={250}
-          height={150}
-          style={{ borderRadius: '8px' }}
-        />
-        <Typography variant="h6" sx={{ mt: 3, fontWeight: 'bold', fontSize: '1.2rem' }}>
-          Comprehensive Reviews
-        </Typography>
-        <Typography sx={{ mt: 2, color: 'white' }}>
-          Read detailed reviews and feedback from students about their learning experiences.
-        </Typography>
-      </Box>
-    </Grid>
-    <Grid item xs={12} md={4}>
-      <Box
-        sx={{
-          textAlign: 'center',
-          px: 4,
-          py: 3,
-          borderRadius: 3,
-          boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)',
-          transition: 'transform 0.3s',
-          '&:hover': {
-            transform: 'translateY(-10px)',
-          },
-        }}
-      >
-        <Image
-          src="/assets/images/review.png"
-          alt="Easy to Use"
-          width={250}
-          height={150}
-          style={{ borderRadius: '8px' }}
-        />
-        <Typography variant="h6" sx={{ mt: 3, fontWeight: 'bold', fontSize: '1.2rem' }}>
-          Easy to Use
-        </Typography>
-        <Typography sx={{ mt: 2, color: 'white' }}>
-          Our platform is user-friendly and intuitive, making it easy for you to find the information you need.
-        </Typography>
-      </Box>
-    </Grid>
-  </Grid>
-</Container>
-
-
+        <Grid container spacing={6}>
+          <Grid item xs={12} md={4}>
+            <Box
+              sx={{
+                textAlign: 'center',
+                px: 4,
+                py: 3,
+                borderRadius: 3,
+                boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)',
+                transition: 'transform 0.3s',
+                '&:hover': {
+                  transform: 'translateY(-10px)',
+                },
+              }}
+            >
+              <Image
+                src="/assets/images/another image.jpeg"
+                alt="Accurate Ratings"
+                width={250}
+                height={150}
+                style={{ borderRadius: '8px' }}
+              />
+              <Typography variant="h6" sx={{ mt: 3, fontWeight: 'bold', fontSize: '1.2rem' }}>
+                Accurate Ratings
+              </Typography>
+              <Typography sx={{ mt: 2 }}>
+                We use advanced AI algorithms to provide the most accurate and unbiased ratings for professors.
+              </Typography>
+            </Box>
+          </Grid>
+          <Grid item xs={12} md={4}>
+            <Box
+              sx={{
+                textAlign: 'center',
+                px: 4,
+                py: 3,
+                borderRadius: 3,
+                boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)',
+                transition: 'transform 0.3s',
+                '&:hover': {
+                  transform: 'translateY(-10px)',
+                },
+              }}
+            >
+              <Image
+                src="/assets/images/accurate.jpeg"
+                alt="Comprehensive Reviews"
+                width={250}
+                height={150}
+                style={{ borderRadius: '8px' }}
+              />
+              <Typography variant="h6" sx={{ mt: 3, fontWeight: 'bold', fontSize: '1.2rem' }}>
+                Comprehensive Reviews
+              </Typography>
+              <Typography sx={{ mt: 2 }}>
+                Read detailed reviews and feedback from students about their learning experiences.
+              </Typography>
+            </Box>
+          </Grid>
+          <Grid item xs={12} md={4}>
+            <Box
+              sx={{
+                textAlign: 'center',
+                px: 4,
+                py: 3,
+                borderRadius: 3,
+                boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)',
+                transition: 'transform 0.3s',
+                '&:hover': {
+                  transform: 'translateY(-10px)',
+                },
+              }}
+            >
+              <Image
+                src="/assets/images/review.png"
+                alt="Easy to Use"
+                width={250}
+                height={150}
+                style={{ borderRadius: '8px' }}
+              />
+              <Typography variant="h6" sx={{ mt: 3, fontWeight: 'bold', fontSize: '1.2rem' }}>
+                Easy to Use
+              </Typography>
+              <Typography sx={{ mt: 2 }}>
+                Our platform is user-friendly and intuitive, making it easy for you to find the information you need.
+              </Typography>
+            </Box>
+          </Grid>
+        </Grid>
+      </Container>
       
+      {/* Shiny effect style */}
+      <style jsx global>{`
+        @keyframes shiny-text {
+          0% {
+            background-position: 0% 50%;
+          }
+          100% {
+            background-position: 200% 50%;
+          }
+        }
+      `}</style>
     </Box>
   );
 }
